@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="user">
+	<name>plg_user_customemail</name>
+	<author>Gary A Mort</author>
+	<creationDate>2013</creationDate>
+	<copyright>(C) 2013 Gary A Mort. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>garyamort@gmail.com</authorEmail>
+	<version>1.0.0</version>
+	<description>Extremely simple custom email plugin</description>
+	<files>
+		<filename plugin="customemail">customemail.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+
+
+				<field name="domain"
+					type="text"
+					class=""
+					default=""
+					label="Only send for this domain"
+					description="Domain to send email for">
+
+				</field>
+
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>
